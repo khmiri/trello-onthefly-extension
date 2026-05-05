@@ -2,10 +2,11 @@
   "manifest_version": 3,
   "name": "Trello Sidebar",
   "version": "1.0",
-  "permissions": ["activeTab", "storage"],
-  "host_permissions": [
-    "https://api.trello.com/*"
-  ],
+  "permissions": ["storage", "identity"],
+  "host_permissions": ["https://api.trello.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
