@@ -1,4 +1,4 @@
-````md
+
 # 🚀 Trello On The Fly Sidebar Chrome Extension
 
 A modern Chrome extension that brings your **Trello workspace directly into any website** as a clean, interactive sidebar.
@@ -25,30 +25,31 @@ Stop switching tabs. Your tasks are always one click away.
 This extension connects to the Trello API and dynamically renders your workspace inside a sidebar injected into the current page.
 
 It uses:
-
+````
 - Boards API → `/members/me/boards`
 - Lists API → `/boards/{id}/lists`
 - Cards API → `/boards/{id}/cards`
 - Checklists API → `/cards/{id}/checklists`
+````
 
 All data stays synced with your real Trello account.
 
 ---
 
 ## 🖥️ UI Overview
-
+````
 - Click the floating **☰ button** to open sidebar
 - Select a board
 - View tasks grouped by lists
 - Click a task to mark it as completed
 
 ---
-
+````
 ## 🚀 Installation (Developer Mode)
 
 1. Clone this repository:
 
-```bash
+````
 git clone https://github.com/your-username/trello-sidebar-extension.git
 ````
 
@@ -117,7 +118,7 @@ Built to improve productivity by:
 
 ## 👨‍💻 Author
 
-Built by a developer focused on **clean UX, fast workflows, and real-world productivity tools**.
+Built by a developer focused on **clean , fast workflows, and real-world productivity tools**.
 
 ---
 
